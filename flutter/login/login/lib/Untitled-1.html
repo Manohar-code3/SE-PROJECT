@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            padding-top: 80px; /* Adjust padding to account for fixed header */
+            background-color: rgb(84, 74, 78);
+            color: white;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #272626;
+            color: white;
+            box-sizing: border-box;
+            z-index: 1000;
+            border-radius: 0 0 10px 10px;
+        }
+        .header .company-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .header .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        .header .nav a:hover {
+            color: yellow;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px); /* Adjust height to account for padding and header */
+        }
+        .content-wrapper {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+        }
+        .left-box {
+            width: 300px;
+            background-color: white;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-sizing: border-box;
+        }
+        .left-box .tiny-boxes {
+            display: grid;
+            grid-template-columns: repeat(3, 50px);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .left-box .tiny-boxes div {
+            width: 50px;
+            height: 50px;
+            border: 2px solid #66003b;
+            border-radius: 5px;
+        }
+        .tiny-box-yellow {
+            background-color: yellow;
+        }
+        .tiny-box-green {
+            background-color: green;
+        }
+        .tiny-box-grey {
+            background-color: grey;
+        }
+        .right-text {
+            text-align: right;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .right-text h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .right-text p {
+            font-size: 24px;
+        }
+        .left-box{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" style="overflow-y:scroll;">
+        <div class="company-name">LeetCode</div>
+        <div class="nav">
+            <a href="#">Premium</a>
+            <a href="#">Explore</a>
+            <a href="#">Product</a>
+            <a href="#">Developer</a>
+            <a href="#">Sign in</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="content-wrapper">
+            <div class="left-box">
+                
+                <div class="tiny-boxes">
+                    <div class="tiny-box-yellow"></div>
+                    
+                    <div class="tiny-box-green"></div>
+                    
+                    <div class="tiny-box-grey"></div>
+                    
+                </div>
+            </div>
+            <div class="right-text">
+                <h1>A NEW WAY TO LEARN</h1>
+                <p>LeetCode is best for your coding health</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

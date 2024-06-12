@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "936071446332",
+    "project_id": "voice-auto-5830f",
+    "storage_bucket": "voice-auto-5830f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936071446332:android:d2df743ecd974b5783a839",
+        "android_client_info": {
+          "package_name": "com.snapsid.loginuicolors"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK2FLI05KG4NHCZxlhauxIux7vvK-AxpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
